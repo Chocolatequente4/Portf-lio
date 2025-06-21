@@ -9,7 +9,7 @@
     <title>Meu Portfólio</title>
 </head>
 
-  <body>
+<body>
   <header class="container text-center">
   <img src="meuAvatar.png" alt="avatar da Daniele" class="rounded-circle" width="150" height="150" srcset="" />
   <p clss="lead">Eu sou Daniele</p>
@@ -26,21 +26,121 @@
     <p class="badge bg-secondary">Scratch</p>
   </div>
    </header>
-   <main class="container">
+   <main class="container mt-5">
     <h2 class="container text-center">Meus Projetos</h2>
-    <div class="row">  
-    <div class="col-md-6 offset-md-3"> 
-        <div class="card" style="width: 18rem;">
-  <img src="..." class="card-img-top" alt="...">
+    <div class="row"> 
+       <!--Projeto 1-->
+    <div class="col-md-4"> 
+        <div class="card">
+  <img src="Monalisa.jpg" class="card-img-top" alt="Imagem da Monalisa">
   <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <h5 class="card-title">Minha Monalisa</h5>
+    <p class="card-text">Esse projeto é inspiração feita da monalisa, com olhos bem marcantes que podem se mexer.</p>
+    <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja o projeto</button>
   </div>
 </div>
     </div>
+    <!--Projeto 2-->
+    <div class="col-md-4"> 
+        <div class="card">
+  <img src="jogo corrida (p.t1).jpg" class="card-img-top" alt="Imagem de corrida">
+  <div class="card-body">
+    <h5 class="card-title">Minha Corrida (p.t1)</h5>
+    <p class="card-text">Esse projeto é corrida, seu objetivo é animar os jogadores a competir quem irá ganhar a partida.</p>
+    <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Veja o projeto</button>
+  </div>
+</div>
     </div>
-   </main>
+    <!--Projeto 3-->
+    <div class="col-md-4"> 
+        <div class="card">
+  <img src="Jogo de corrida(p.t2).jpg" class="card-img-top" alt="Imagem de corrida">
+  <div class="card-body">
+    <h5 class="card-title">Minha corrida (p.t2)</h5>
+    <p class="card-text">Esse projeto é corrida, seu objetivo é animar os jogadores a competir quem irá ganhar a partida, com mais jogadores.</p>
+    <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Veja o projeto</button>
+  </div>
+</div>
 
-   </body>
-   </html>
+    </div>
+    </div>
+  </main>
+
+<!-- Modal 1 -->
+ <div class="modal" id="modal1" tabindex="-1">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Minha Monalisa</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>O meu projeto, é feito no p5.js Web Editor, onde me deu a posibilidade de usar a criatividade atráves das instruções de um professor no Alura. A personagem Monalisa, que eu criei é possível observar a presença de um comando que faz os olhos serem conduzidos pelo mause.</p>
+        <img src="Monalisa.jpg"  class="img-fluid w-100" 
+        alt="Imagem representativa do projeto Monalisa">
+      </div>
+      <div class="modal-footer">
+
+       <a href="https://editor.p5js.org/dani31/full/Y1drw6YW7/">Ver projeto ao vivo</a>
+        <a href="https://editor.p5js.org/dani31/sketches/Y1drw6YW7">Ver código do projeto</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal 2 -->
+ <div class="modal" id="modal2" tabindex="-1">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Minha corrida(p.t1)</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>O meu projeto, é feito no p5.js Web Editor, onde me deu a posibilidade de usar a criatividade atráves das instruções de um professor no Alura. O jogo de corrida é uma competição entre 2 jogadores desempenhados a ver quem irá vencer a partida.</p>
+        <img src="jogo corrida (p.t1).jpg"  class="img-fluid w-100" 
+        alt="Imagem representativa do projeto jogo de corrida (p.t1)"/>
+      </div>
+      <div class="modal-footer">
+      <a href="https://editor.p5js.org/dani31/full/IR1I9YVK9">Ver projeto ao vivo</a>
+        <a href="https://editor.p5js.org/dani31/sketches/IR1I9YVK9">Ver código do projeto</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal 3 -->
+ <div class="modal" id="modal3" tabindex="-1">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Minha corrida(p.t2)</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>O meu projeto, é feito no p5.js Web Editor, onde me deu a posibilidade de usar a criatividade atráves das instruções de um professor no Alura. O jogo de corrida é uma competição entre 4 jogadores desempenhados a ver quem irá vencer a partida.</p>
+        <img src="Jogo de corrida(p.t2).jpg"  class="img-fluid w-100" 
+        alt="Imagem representativa do projeto jogo de corrida (p.t2)"/>
+      </div>
+      <div class="modal-footer">
+      <a href="https://editor.p5js.org/dani31/full/C1w5ACRAmr">Ver projeto ao vivo</a>
+        <a href="https://editor.p5js.org/dani31/sketches/C1w5ACRAmr">Ver código do projeto</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    <footer class="container py-5"> 
+    <h2>Entre em contato</h2>
+    <div> 
+       <i class="bi bi-github"></i>
+            <a href="https://github.com/Chocolatequente4/Portf-lio/tree/main">GitHub</a>
+        </div>
+        <p class="my-5 text-center">© Copyright 2025. Produzido por Daniele</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
